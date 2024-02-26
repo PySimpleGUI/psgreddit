@@ -27,23 +27,36 @@ Search Your Favorite Reddit Subs
 
 ## Installation
 
-### Using PIP
+### Using PIP with PyPI
 
-`pip install psgreddit`
+The latest official release of PySimpleGUI products can be found on PyPI.  To pip install the demo applications from PyPI, use this command
 
-### Installing using `python -m pip`. The python recommended way:
+#### If you use the command `python` on your computer to invoke Python (Windows):
+
+`python -m pip install --upgrade psgreddit`
+
+#### If you use the command `python3` on your computer to invoke Python (Linux, Mac):
+
+`python3 -m pip install --upgrade psgreddit`
+
+### Using PIP with GitHub
+
+You can also pip install the PySimpleGUI Applications that are in the PySimpleGUI GitHub account.  The GitHub versions have bug fixes and new programs/features that have not yet been released to PyPI. To directly pip install from that repo:
 
 #### If you use the command `python` on your computer to invoke Python (Windows):
 
 ```bash
-python -m pip install --upgrade --no-cache-dir "git+https://github.com/PySimpleGUI/psgreddit.git#egg=psgreddit"
+python -m pip install --upgrade https://github.com/PySimpleGUI/psgreddit/zipball/main
 ```
 
 #### If you use the command `python3` on your computer to invoke Python (Linux, Mac):
 
 ```bash
-python3 -m pip install --upgrade --no-cache-dir "git+https://github.com/PySimpleGUI/psgreddit.git#egg=psgreddit"`
+python3 -m pip install --upgrade https://github.com/PySimpleGUI/psgreddit/zipball/main
 ```
+
+
+
 
 ## Usage
 
