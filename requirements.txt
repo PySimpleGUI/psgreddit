@@ -1,0 +1,2 @@
+praw
+PySimpleGUI>=5
